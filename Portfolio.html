@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Portfolio</title>
+
+    <!-- Tailwind CSS CDN -->
+
+    <link rel="stylesheet" href="./output.css"/>
+
+</head>
+
+<body class="bg-gray-100">
+
+
+
+<!-- Header Section -->
+
+<header class="bg-customblue text-white fixed w-full top-0 left-0 z-50">
+
+    <div class="max-w-screen-xl mx-auto px-4 py-4 flex justify-between items-center">
+
+        <div class="text-xl font-bold">$ID</div>
+
+        <nav class="hidden md:flex space-x-8">
+
+            <a href="#home" class="hover:text-gray-400">Home</a>
+
+            <a href="#about" class="hover:text-gray-400">About Me</a>
+
+            <a href="#projects" class="hover:text-gray-400">Projects</a>
+
+            <a href="#contact" class="hover:text-gray-400">Contact</a>
+            <button id="dark-mode-toggle" class=" bg-gray-200 dark:bg-gray-800 text-white/80 dark:text-white rounded p-1">🌙 Toggle Dark Mode</button>
+
+        </nav>
+
+        <div class="md:hidden flex items-center">
+
+            <!-- Hamburger Menu -->
+
+            <button class="text-white">
+
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- Hero Section -->
+
+<section id="home" class="h-screen bg-cover bg-center flex items-center justify-center text-center text-white" style="background-image: url('https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');">
+
+    <div>
+
+        <h1 class="text-4xl md:text-6xl font-semibold mb-4">Hello, I'm Siddhant Gupta</h1>
+
+        <p class="text-lg md:text-xl mb-6">Software Developer and Designer</p>
+
+        <a href="#projects" class="bg-blue-600 px-6 py-2 rounded-lg hover:bg-blue-700">My Work</a>
+
+    </div>
+
+</section>
+
+
+
+<!-- About Me Section -->
+
+<section id="about" class="py-16 px-4 bg-gray-200 text-center">
+
+    <div class="max-w-4xl mx-auto">
+
+        <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+
+        <div class="flex justify-center mb-8">
+
+            <img src="https://cdn.vectorstock.com/i/500p/73/69/gold-circle-letter-s-logo-vector-14957369.avif"  alt="Profile Picture" class="rounded-full border-4 border-white shadow-lg size-20">
+
+        </div>
+
+        <p class="text-3xl mb-4">I'm a highly enthusiastic software developer with a strong passion for building sleek and modern web applications. I specialize in HTML, CSS, and JavaScript, constantly refining my skills to create seamless and engaging user experiences.  
+
+            Currently, I'm learning and implementing MERN stack development, expanding my expertise in full-stack web applications. I thrive on solving complex challenges, optimizing performance, and delivering impactful digital solutions. 🚀</p>
+
+        <div class="grid grid-cols-2 gap-8">
+
+            <div>
+
+                <h3 class="font-semibold text-2xl my-2">Skills</h3>
+
+                <ul class="list-disc list-inside text-xl">
+
+                    <li>Java</li>
+
+                    <li>React</li>
+
+                    <li>JavaScript</li>
+                    <li>tailwindcss</li>
+
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3 class="font-semibold text-2xl my-2">Hobbies</h3>
+
+                <ul class="list-disc list-inside text-xl">
+
+                    <li>Cricket</li>
+
+                    <li>Traveling</li>
+
+                    <li>Gaming</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Projects Section -->
+
+<section id="projects" class="py-16 px-4">
+
+    <div class="max-w-screen-xl mx-auto text-center">
+
+        <h2 class="text-3xl font-semibold mb-12 bg-amber-200 rounded-lg">My Projects</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+
+            <!-- Project 1 -->
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/4618/4618454.png" alt="Project 1" class="w-full  object-cover">
+
+                <div class="p-6">
+
+                    <h3 class="text-xl font-semibold mb-2">API-based Ludo game development</h3>
+
+                    <p class="text-gray-600 mb-4">This Ludo game is built using Java and Spring Boot, featuring API-driven multiplayer functionality. It includes game logic, player management, and turn-based mechanics. Postman is used for testing, ensuring seamless gameplay. The project demonstrates backend efficiency and API integration. 🚀</p>
+
+                    <a href="https://github.com/Siddhant0017/LudoGame" class="text-blue-600 hover:text-blue-800">GitHub Link</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/17194/17194651.png" alt="Project 2" class="w-full object-cover">
+
+                <div class="p-6">
+
+                    <h3 class="text-xl font-semibold mb-2">Fitness Trainer Appointment Scheduling Web Application</h3>
+
+                    <p class="text-gray-600 mb-4">This Fitness Trainer App is designed to help users track workouts and manage fitness routines efficiently. Built using Java, Spring Boot, and MySQL, it ensures smooth backend operations. The app includes user authentication, workout plans, and progress tracking for an enhanced experience. 🚀</p>
+
+                    <a href="https://github.com/Siddhant0017/fitness-trainer-app" class="text-blue-600 hover:text-blue-800">GitHub Link</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 3 -->
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/10292/10292284.png" alt="Project 3" class="w-full object-cover">
+
+                <div class="p-6">
+
+                    <h3 class="text-xl font-semibold mb-2">Interactive-Quiz Application</h3>
+
+                    <p class="text-gray-600 mb-4">This Interactive Quiz application is designed to engage users with dynamic quizzes. Built using Java, Spring Boot, and MySQL, it features user authentication, real-time scoring, and a seamless UI. The project ensures an interactive and efficient quiz-taking experience. 🚀.</p>
+
+                    <a href="https://github.com/Siddhant0017/InteractiveQuiz" class="text-blue-600 hover:text-blue-800">GitHub Link</a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 4 -->
+
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/5432/5432480.png" alt="Project 4" class="w-full object-cover">
+
+                <div class="p-6">
+
+                    <h3 class="text-xl font-semibold mb-2">API Integration Project</h3>
+
+                    <p class="text-gray-600 mb-4">This project focuses on database management and SQL operations, showcasing efficient data handling and query execution. Built using Microsoft SQL Server, it includes CRUD operations, relational database design, and optimization techniques, ensuring structured data storage and retrieval for various applications. 🚀.</p>
+
+                    <a href="https://github.com/Siddhant0017/Database-work" class="text-blue-600 hover:text-blue-800">GitHub Link</a>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Contact Section -->
+
+<section id="contact" class="py-16 px-4 bg-gray-800 text-white">
+
+    <div class="max-w-screen-md mx-auto text-center">
+
+        <h2 class="text-3xl font-semibold mb-8">Contact Me</h2>
+
+        <form class="space-y-6">
+
+            <input type="text" placeholder="Your Name" class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+            <input type="email" placeholder="Your Email-Id" class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+            <textarea placeholder="Your Message" class="w-full p-3 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+            <button type="submit" class="w-full py-3 bg-blue-600 rounded-lg text-white hover:bg-blue-700">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- Footer Section -->
+
+<footer class="bg-customblue text-white py-4 text-center">
+
+    <p>&copy; 2025 Siddhant0017 | All Rights Reserved</p>
+
+    <div class="mt-4 space-x-6">
+
+        <a href="https://www.linkedin.com/in/siddhant-gupta-797226200" class="hover:text-gray-400">LinkedIn</a>
+
+        <a href="https://github.com/Siddhant0017" class="hover:text-gray-400">GitHub</a>
+
+        <a href="https://x.com/Siddhant_Gupta0" class="hover:text-gray-400">Twitter</a>
+
+    </div>
+
+</footer>
+
+</body>
+
+</html>
